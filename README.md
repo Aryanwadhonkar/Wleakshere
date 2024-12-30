@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="wleakshere">
+  <img src="20241224_132257.png" alt="wleakshere">
 </p>
 <h1 align="center">
   wleakshere
