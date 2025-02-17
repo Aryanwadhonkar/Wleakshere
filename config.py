@@ -15,22 +15,22 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "24103884"))
 API_HASH = environ.get("API_HASH", "257516f22417652d03896cb2e007d6df")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7600042137:AAHmevEhSjoMOJArTuF0jChxzWhEG32iRFY")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7945074484:AAHA8vvLPe9z3Yjb9b-RzFz1D_XshZYqGo4")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Wleaksherebot") # without @
+PICS = (environ.get('PICS', 'https://t.me/wleakspredict/13')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1672634667').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "wleaksherefilebot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "cloneWleakshere")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "False")
+CDB_NAME = environ.get("CDB_NAME", "")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://wleakshere:pM29nY4wL46MNhw8@wleakshere.api7w.mongodb.net/?retryWrites=true&w=majority&appName=Wleakshere")
+DB_URI = environ.get("DB_URI", "mongodb+srv://wleakshere:pM29nY4wL46MNhw8@wleakshere.api7w.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "wleakshere")
 
 # Auto Delete Information
@@ -41,22 +41,22 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002169463250"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-4734370106"))
 
 # File Caption Information
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
+CUSTOM_FILE_CAPTION = environ.get("https://linkfly.to/wleaks", f"{script.CAPTION}")
+BATCH_FILE_CAPTION = environ.get("https://linkfly.to/wleaks", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
 
 # Verify Info :-
-VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
+VERIFY_MODE = bool(environ.get('True', False)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "") # shortlink api
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "droplink.co") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "1eaafac77d3d6cf9e06069e974968a24d34e6780") # shortlink api
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/wleakspredict/14") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
